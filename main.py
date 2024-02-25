@@ -3,8 +3,9 @@ from turtle import Turtle, Screen
 
 screen = Screen()
 race_on = False
+screen.bgcolor("black")
 screen.setup(width=500, height=400)
-color = ['red','orange','black', 'purple', 'yellow']
+color = ['red','orange','white', 'purple', 'yellow']
 user_bet = screen.textinput(title="Make your bet", prompt=f"Choose any color {color}")
 all_turtle = []
 yaxis = -150
